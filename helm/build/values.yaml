@@ -1,0 +1,15 @@
+app:
+  name: my-quarkus-app-6
+  namespace: my-quarkus-app-6-dev
+  cluster: .apps.cluster-4l6dk.4l6dk.sandbox45.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/assemble-platforms-test-2/my-quarkus-app-6
+  org: assemble-platforms-test-2
+  name: my-quarkus-app-6
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: my-quarkus-app-6-dev/my-quarkus-app-6
+  tag: latest
